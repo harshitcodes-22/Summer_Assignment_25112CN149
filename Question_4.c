@@ -11,8 +11,7 @@ int main(){
         while(n!=0){
             n=n/10;
             count++;
-
-        }
+     }
     }
     printf("Number of digits=%d\n",count);
     return 0;
