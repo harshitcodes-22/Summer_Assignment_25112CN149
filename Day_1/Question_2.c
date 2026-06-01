@@ -8,5 +8,4 @@ int main(){
       printf(" %d*%d=%d\n",n,i,Table);
     }
     return 0;
-    
-}
+  }
