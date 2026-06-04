@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-int main() {
+int main(){
     int first, last, n, temp, digit, digits, sum;
 
     printf("Enter the start of range: ");
