@@ -8,7 +8,7 @@ int main(){
     scanf("%d", &first);
 
     printf("Enter the end of range: ");
-    scanf("%d", &last);
+    scanf("%d",&last);
 
     printf("Armstrong numbers between %d and %d are:\n", first, last);
 

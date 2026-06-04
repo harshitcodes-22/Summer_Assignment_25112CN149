@@ -4,7 +4,7 @@ int main(){
     int n, originalNum, remainder, result = 0;
 
     printf("Enter a number: ");
-    scanf("%d", &n);
+    scanf("%d",&n);
 
     originalNum = n;
 

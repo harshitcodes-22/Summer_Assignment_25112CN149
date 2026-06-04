@@ -6,7 +6,7 @@ int main(){
     int n;
 
     printf("Enter the value of n: ");
-    scanf("%d", &n);
+    scanf("%d",&n);
 
     printf("The %dth Fibonacci term is %d\n", n, fibonacci(n));
 
