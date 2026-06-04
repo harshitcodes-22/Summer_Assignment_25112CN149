@@ -8,7 +8,7 @@ int main() {
 
     originalNum = n;
 
-    while (originalNum != 0) {
+    while (originalNum!= 0) {
         remainder = originalNum % 10;
         result += remainder * remainder * remainder;
         originalNum /= 10;
