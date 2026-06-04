@@ -9,7 +9,7 @@ int main() {
 
     printf("Fibonacci Series:\n");
 
-    for(i = 0; i < n; i++) {
+    for(i = 0; i < n; i++){
         if(i <= 1)
             next = i;
         else {

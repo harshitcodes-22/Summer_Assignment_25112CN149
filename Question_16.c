@@ -26,7 +26,7 @@ int main(){
         temp = n;
 
         
-        while (temp != 0) {
+        while(temp != 0) {
             digit = temp % 10;
             sum += pow(digit, digits);
             temp /= 10;
