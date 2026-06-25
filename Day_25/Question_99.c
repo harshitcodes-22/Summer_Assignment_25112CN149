@@ -13,7 +13,7 @@ int main() {
         scanf("%s", names[i]);
     }
     for(i = 0; i < n - 1; i++) {
-        for(j = i + 1; j < n; j++) {
+        for(j =i + 1; j < n; j++) {
             if(strcmp(names[i], names[j]) > 0) {
                 strcpy(temp, names[i]);
                 strcpy(names[i], names[j]);

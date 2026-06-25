@@ -14,7 +14,7 @@ int main() {
     printf("Common characters are: ");
 
     for(i = 0; str1[i] != '\0'; i++) {
-        found = 0;
+        found =0;
 
         for(j = 0; str2[j] != '\0'; j++) {
             if(str1[i] == str2[j]) {

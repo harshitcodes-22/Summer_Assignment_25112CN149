@@ -20,7 +20,7 @@ int main() {
         scanf("%d", &b[i]);
     }
 
-    i = j = k = 0;
+    i = j = k =0;
 
     while(i < n1 && j < n2) {
         if(a[i] <= b[j]) {
